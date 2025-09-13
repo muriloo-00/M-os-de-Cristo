@@ -1,0 +1,68 @@
+.tit {
+    background-color: blue;
+    color: white;
+    font-size: 70px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.carrossel {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrossel-imagens {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-imagens img {
+    width: 100%;
+    height: auto;
+}
+
+.controle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.controle-esquerda {
+    left: 10px;
+}
+
+.controle-direita {
+    right: 10px;
+}
+
+
+.b1 {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin-left: -6px;
+}
+
+.b2 {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin-left: -5px;
+}

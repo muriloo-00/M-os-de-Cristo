@@ -1,0 +1,18 @@
+.h1 {
+    font-size: 70px;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.b1 {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 80px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
